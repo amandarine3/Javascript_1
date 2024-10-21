@@ -40,9 +40,9 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
 - Null
 - Object (les Date sont des Objects en JS, il n'y a pas de "type" Date)
 
-  Afin d'obtenir le type d'une variable on utilise <g>typeof</g>
+  Afin d'obtenir le type d'une variable on utilise **typeof**
 
-  ## Exemple pour obtenir le type d'une variable Object
+## Exemple pour obtenir le type d'une variable Object
 
    const now = new Date()
 
@@ -64,13 +64,13 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
 
   Le DOM est une API.
 
-  ## Quelques fonctions utiles du DOM
+## Quelques fonctions utiles du DOM
 
   - getElementById
   - querySelector
   - querySelectorAll
 
-    ## Propriétés des éléments du DOM
+## Propriétés des éléments du DOM
 
     - id : permet d'obtenir/modifier la valeur d'un attribut
     - innerHTML : permet d'obtenir/modifier le contenu de la balise
@@ -85,7 +85,7 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
     - addEventListener("click",...) : permet d'ajouter un code en sommeil sur l'évènement "clique" de l'élément ciblé
    
 
-    ## Quelques fonctions
+## Quelques fonctions
 
     - parseInt(a,b)
     - parseFloat(a,b)
@@ -104,12 +104,12 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
    
         en JS, pour les fonctions mathématiques, on utilise l'object MATH (exemple : Math.pi, Math.round, Math.floor, Math.ceil, Math.random,...)
    
-        ### Fonctions sur les STRING
+  ### Fonctions sur les STRING
    
          - CONCATENATION
-         - To Be Continued... 
-
-      ## Opérateurs
+         - **To Be Continued... **
+         
+## Opérateurs
 
       - a++ => post-action
       - ++a => pré-action
