@@ -103,19 +103,25 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
     
    - parseFloat(a,b)
    
-    **==>** sont les 2 fonctions qui permettent de convertir une variable de type String
+   **==> sont les 2 fonctions qui permettent de convertir une variable de type String**
    
-  - toFixed(nbChiffre) ==> renvoie le nombre formaté en chaîne de caractères avec une notation à point-fixe.
+  - toFixed(nbChiffre) : renvoie le nombre formaté en chaîne de caractères avec une notation à point-fixe.
     
-  - toLocaleString(locale,options) => renvoie le nombre formaté en chaîne de caractères en tenant compte de la locale ('fr-be' par exemple)
+  - toLocaleString(locale,options) : renvoie le nombre formaté en chaîne de caractères en tenant compte de la locale ('fr-be' par exemple)
    
     en JS, pour les fonctions mathématiques, on utilise l'object **MATH** (exemple : Math.pi, Math.round, Math.floor, Math.ceil, Math.random,...) ou des **constantes** telles que MIN_VALUE, MAX_VALUE, MIN_SAFE_INTEGER, MAX_SAFE_INTEGER, EPSILON.
 
-    Certaines fonctions sur les nombres existent également comme "isFinite()", "isNaN()" (utilisée pour savoir si c'est un nombre ou pas), "isInteger", "isSafeInteger", ... 
+    Certaines **fonctions sur les nombres** existent également comme "isFinite()", "isNaN()" (utilisée pour savoir si c'est un nombre ou pas), "isInteger", "isSafeInteger", ... 
    
   ### Autres fonctions sur les STRING
    
-- CONCATENATION
+   ### 3 façons d'effectuer la concaténation : 
+   
+     1) via l'opérateur "+" 
+     2) via la méthode ".concat"
+     3) via le template "String" (via les `` avec `${chaine1} ${chaine2}`)
+     
+   ### 
 
          
 ## Opérateurs
