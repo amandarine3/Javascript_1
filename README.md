@@ -67,9 +67,11 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
 
 ## Quelques fonctions utiles du DOM
 
-  - getElementById 
-  - querySelector
-  - querySelectorAll
+  - getElementById : retourne l'élément ayant l'attribut id spécifié
+    
+  - querySelector : retourne le premier élément qui correspond au sélecteur CSS
+    
+  - querySelectorAll : retourne une « NodeList » avec tous les éléments qui correspondent au sélecteur CSS
 
 ## Propriétés des éléments du DOM
 
@@ -95,37 +97,26 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
     
     - addEventListener("click",...) : permet d'ajouter un code en sommeil sur l'évènement "clique" de l'élément ciblé
    
-
-## Quelques fonctions
+## Quelques fonctions JS
 
    - parseInt(a,b)
     
    - parseFloat(a,b)
    
-    **==>** permettent de convertir une variable de type String
+    **==>** sont les 2 fonctions qui permettent de convertir une variable de type String
    
   - toFixed(nbChiffre) ==> renvoie le nombre formaté en chaîne de caractères avec une notation à point-fixe.
     
   - toLocaleString(locale,options) => renvoie le nombre formaté en chaîne de caractères en tenant compte de la locale ('fr-be' par exemple)
-    
-  - MIN_VALUE
-    
-  - MAX_VALUE
-    
-  - MIN_SAFE_INTEGER
-    
-  - MAX_SAFE_INTEGER
-       
-  - isFinite
-    
-  - isNaN => est utilisée pour savoir si c'est un nombre ou pas
    
-    en JS, pour les fonctions mathématiques, on utilise l'object **MATH** (exemple : Math.pi, Math.round, Math.floor, Math.ceil, Math.random,...)
+    en JS, pour les fonctions mathématiques, on utilise l'object **MATH** (exemple : Math.pi, Math.round, Math.floor, Math.ceil, Math.random,...) ou des **constantes** telles que MIN_VALUE, MAX_VALUE, MIN_SAFE_INTEGER, MAX_SAFE_INTEGER, EPSILON.
+
+    Certaines fonctions sur les nombres existent également comme "isFinite()", "isNaN()" (utilisée pour savoir si c'est un nombre ou pas), "isInteger", "isSafeInteger", ... 
    
-  ### Fonctions sur les STRING
+  ### Autres fonctions sur les STRING
    
 - CONCATENATION
-         - **To Be Continued... **
+
          
 ## Opérateurs
 
