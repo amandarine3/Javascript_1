@@ -109,19 +109,58 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
     
   - toLocaleString(locale,options) : renvoie le nombre formaté en chaîne de caractères en tenant compte de la locale ('fr-be' par exemple)
    
+
+
     en JS, pour les fonctions mathématiques, on utilise l'object **MATH** (exemple : Math.pi, Math.round, Math.floor, Math.ceil, Math.random,...) ou des **constantes** telles que MIN_VALUE, MAX_VALUE, MIN_SAFE_INTEGER, MAX_SAFE_INTEGER, EPSILON.
 
-    Certaines **fonctions sur les nombres** existent également comme "isFinite()", "isNaN()" (utilisée pour savoir si c'est un nombre ou pas), "isInteger", "isSafeInteger", ... 
+    Certaines **fonctions sur les nombres** existent également comme "isFinite()", "isNaN()" (utilisée pour savoir si c'est un nombre ou pas), "isInteger", "isSafeInteger", ...
+
+    
    
   ### Autres fonctions sur les STRING
    
-   ### 3 façons d'effectuer la concaténation : 
+   - 3 façons d'effectuer la concaténation : 
    
      1) via l'opérateur "+" 
      2) via la méthode ".concat"
      3) via le template "String" (via les `` avec `${chaine1} ${chaine2}`)
      
-   ### 
+  - indexOf()
+    
+  - includes()
+    
+  - startsWith / endsWith
+    
+  - localeCompare()
+    
+  - trim()
+    
+  - trimStart()
+    
+  - trimEnd()
+    
+  - toUpperCase()
+    
+  - toLowerCase()
+    
+  - toLocaleUpperCase()
+    
+  - toLocaleUpperCase()
+    
+  - padStart()
+    
+  - padEnd()
+    
+  - replace()
+    
+  - replaceAll()
+    
+  - substring()
+    
+  - slice()
+    
+  - split() 
+
 
          
 ## Opérateurs
