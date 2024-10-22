@@ -46,15 +46,13 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
 
    const now = new Date()
 
-  => via la propriété constructor
+ - via la propriété constructor
 
   now.constructor.name => renvoie Date
 
-  => via l'opérateur instanceof
+ - via l'opérateur instanceof
 
   now.instanceofDate => renvoie True
-
-  La fonction isNaN est utilisée pour savoir si c'est un nombre ou pas
 
   ## DOM : définition
 
@@ -64,57 +62,81 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
 
   Le DOM est une API.
 
+  ![image](https://github.com/user-attachments/assets/e2dc544a-7361-4ac5-b204-615d14229646)
+
+
 ## Quelques fonctions utiles du DOM
 
-  - getElementById
+  - getElementById 
   - querySelector
   - querySelectorAll
 
 ## Propriétés des éléments du DOM
 
     - id : permet d'obtenir/modifier la valeur d'un attribut
+    
     - innerHTML : permet d'obtenir/modifier le contenu de la balise
+    
     - textContent : permet d'obtenir/modifier le contenu textuel
+    
     - className : permet d'obtenir/modifier le contenu de l'attribut "class" d'une balise
+    
     - classList : permet les interactions avec la valeur de l'attribut "class" d'une balise (grâce aux méthodes : add, remove, contains, replace, toggle*) *toggle permet l'ajout / la suppression de la classe spécifiée.
+    
     - firstElementChild / lastElementChild : permet d'obtenir le premier / dernier élément de la balise
+    
     - children : permet d'obtenir 1 collection avec tous les éléments enfants de la balise
+    
     - value : permet d'obtenir/modifier la valeur d'une balise "input", "textarea", "select"
+    
     - valueAsNumber : permet d'obtenir/modifier la valeur d'une balise "input" convertie en type Number (disponible que sur des balises Number et Date)
+    
     - checked : permet d'obtenir/modifier l'état d'une balise "input" de type "checkbox"
+    
     - addEventListener("click",...) : permet d'ajouter un code en sommeil sur l'évènement "clique" de l'élément ciblé
    
 
 ## Quelques fonctions
 
-    - parseInt(a,b)
-    - parseFloat(a,b)
+   - parseInt(a,b)
+    
+   - parseFloat(a,b)
    
-      ==> permettent de convertir une variable de type String
+    **==>** permettent de convertir une variable de type String
    
-      - toFixed(nbChiffre) ==> renvoie le nombre formaté en chaîne de caractères avec une notation à point-fixe.
-      - toLocaleString(locale,options) => renvoie le nombre formaté en chaîne de caractères en tenant compte de la locale ('fr-be' par exemple)
-      - MIN_VALUE
-      - MAX_VALUE
-      - MIN_SAFE_INTEGER
-      - MAX_SAFE_INTEGER
-      - EPSILON
-      - isFinite
-      - isNaN
+  - toFixed(nbChiffre) ==> renvoie le nombre formaté en chaîne de caractères avec une notation à point-fixe.
+    
+  - toLocaleString(locale,options) => renvoie le nombre formaté en chaîne de caractères en tenant compte de la locale ('fr-be' par exemple)
+    
+  - MIN_VALUE
+    
+  - MAX_VALUE
+    
+  - MIN_SAFE_INTEGER
+    
+  - MAX_SAFE_INTEGER
+       
+  - isFinite
+    
+  - isNaN => est utilisée pour savoir si c'est un nombre ou pas
    
-        en JS, pour les fonctions mathématiques, on utilise l'object MATH (exemple : Math.pi, Math.round, Math.floor, Math.ceil, Math.random,...)
+    en JS, pour les fonctions mathématiques, on utilise l'object **MATH** (exemple : Math.pi, Math.round, Math.floor, Math.ceil, Math.random,...)
    
   ### Fonctions sur les STRING
    
-         - CONCATENATION
+- CONCATENATION
          - **To Be Continued... **
          
 ## Opérateurs
 
-      - a++ => post-action
-      - ++a => pré-action
+   - a++ => post-action
+   - ++a => pré-action
 
-        Les autres opérateurs sont +/- similaires à ceux de Windev et facile à apprendre.
+Les autres opérateurs sont +/- similaires à ceux de Windev et facile à apprendre :
+
+![image](https://github.com/user-attachments/assets/f31f187f-fb7f-4a90-a0be-99aaa87513d5)
+
+
 
         
 
