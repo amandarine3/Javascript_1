@@ -173,6 +173,13 @@ Les autres opérateurs sont +/- similaires à ceux de Windev et facile à appren
 ![image](https://github.com/user-attachments/assets/f31f187f-fb7f-4a90-a0be-99aaa87513d5)
 
 
+## Les Objects 
+
+Le type « Object » permet de stocker un ensemble de valeur sous forme de propriété.
+
+![image](https://github.com/user-attachments/assets/2beec1a6-2b39-4610-8c45-23042969d1b9)
+
+Exemple 
 
         
 
