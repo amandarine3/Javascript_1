@@ -211,7 +211,20 @@ En JS, une date est stockée sous forme d'un entier qui correspond au nombre de 
 - getMonth() / setMonth(indexMois) : obtenir / modifier la valeur de l'index (de 0 à 11) représentant le mois d'une date
 - getFullYear() / setFullYear(nbAnnée) : obtenir / modifier la valeur de l'année d'une date
 - getHours() / setHours(nbHeure) : obtenir / modifier la valeur de l'heure d'une date
-- getMinutes() / setMinutes()
+- getMinutes() / setMinutes(nbMinute) : obtenir / modifier la valeur des minutes d'une date
+- getSeconds() / setSeconds(nbSeconde) : obtenir / modifier la valeur des secondes d'une date
+- getMilliseconds() / setMilliseconds(nbMilliseconde) : obtenir / modifier la valeur des millisecondes d'une date
+- getDay() : obtenir / modifier la valeur du jour de la semaine d'une date (de 0 à 6)
+- getTime() : obtenir en millisecondes le temps écoulés depuis le 1er janvier 1970
+
+### Fonctions utiles Dates 
+
+-toString()
+-toISOString()
+-toJSON()
+-toLocaleString(locale,options)
+-toLocaleDateString(locale,options)
+-toLocaleTimeString(locale,options)
 
 
 
