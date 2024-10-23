@@ -179,7 +179,42 @@ Le type « Object » permet de stocker un ensemble de valeur sous forme de propr
 
 ![image](https://github.com/user-attachments/assets/2beec1a6-2b39-4610-8c45-23042969d1b9)
 
-Exemple 
+
+Exemple avec les accesseurs de propriétés : 
+
+const tabObjets = {
+clé1 : 'Valeur1',
+clé2 : 'Valeur2'
+};
+
+tabObjets['clé1'] = 'ValeurA';
+tabObjets.clé2 = 'ValeurB';
+
+### Le "Optional chaining" opérateur (?.) 
+
+Permet d'éviter d'accéder à une propriété d'un objet "null" ou "undefined" (sinon erreur levée par le JS).
+
+Si on utilise ceci sur une propriété d'un objet "null" ou "undefined" ça renvoie uniquement "undefined" et non une erreur.
+
+Exemple : 
+
+![image](https://github.com/user-attachments/assets/8d79666b-839e-4d6c-b79a-c11c17d59e0f)
+
+
+## Les Dates 
+
+En JS, une date est stockée sous forme d'un entier qui correspond au nombre de millisecondes écoulées depuis le 1er janvier 1970 (UTC).
+
+![image](https://github.com/user-attachments/assets/f0024b11-d401-45c7-b479-2d391a9edb89)
+
+- getDate() / setDate(nbJour) : obtenir / modifier la valeur du JOUR du mois d'une date
+- getMonth() / setMonth(indexMois) : obtenir / modifier la valeur de l'index (de 0 à 11) représentant le mois d'une date
+- getFullYear() / setFullYear(nbAnnée) : obtenir / modifier la valeur de l'année d'une date
+- getHours() / setHours(nbHeure) : obtenir / modifier la valeur de l'heure d'une date
+- getMinutes() / setMinutes()
+
+
+
 
         
 
