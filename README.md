@@ -251,6 +251,73 @@ Exemple Switch :
 
 ![image](https://github.com/user-attachments/assets/347f0c68-798b-4b91-b571-b7504a247522)
 
+## Boucles 
+
+- WHILE
+  ![image](https://github.com/user-attachments/assets/39da958f-ca99-4271-8bdf-7fa1850ea7bb)
+
+- DO ... WHILE
+![image](https://github.com/user-attachments/assets/eb2fa641-89cc-4621-9360-4186fcdeac35)
+  
+- FOR
+  ![image](https://github.com/user-attachments/assets/a232d22b-e84e-45e4-9ffa-9f929a6daeb8)
+
+On utilise également les instructions CONTINUE et BREAK en JavaScript
+
+- forEach(...)
+  
+- for ... of
+  
+- for ... in 
+
+## Collections indexées "ARRAY" 
+
+Une collection indexée est une structure de données qui permet de stocker un ensemble de valeurs dans une variable et de les rendre accessibles à l’aide d’un index.
+
+** TO BE CONTINUED ** 
+
+## Le Type "MAP"
+
+** TO BE CONTINUED ** 
+
+## TRY / CATCH / FINALLY
+
+## 
+
+Création d'un Array
+Littéral : const arr = [1, 2, 3];
+Constructeur : const arr = new Array(1, 2, 3);
+Accès et manipulation de données
+Accéder à un élément : arr[index]
+Ajouter/Supprimer des éléments :
+push(item) : Ajoute à la fin.
+pop() : Supprime le dernier élément.
+unshift(item) : Ajoute au début.
+shift() : Supprime le premier élément.
+splice(start, deleteCount, ...items) : Modifie à partir d'un index (ajout/suppression).
+slice(start, end) : Extrait une portion sans modifier l'original.
+Itérations
+forEach(callback) : Exécute une fonction pour chaque élément.
+map(callback) : Crée un nouveau tableau en appliquant une fonction à chaque élément.
+filter(callback) : Crée un nouveau tableau avec les éléments qui passent un test.
+reduce(callback, initialValue) : Réduit le tableau à une seule valeur en appliquant une fonction.
+some(callback) : Retourne true si au moins un élément passe le test.
+every(callback) : Retourne true si tous les éléments passent le test.
+find(callback) : Retourne le premier élément qui passe le test.
+findIndex(callback) : Retourne l’index du premier élément qui passe le test.
+Recherches et transformations
+indexOf(item) : Retourne l'index d'un élément (ou -1).
+includes(item) : Vérifie si un élément est présent.
+join(separator) : Crée une chaîne de caractères à partir des éléments.
+concat(...arrays) : Combine plusieurs tableaux.
+flat(depth) : Aplati un tableau imbriqué.
+reverse() : Inverse l'ordre des éléments.
+sort(compareFunction) : Trie le tableau.
+Autres
+length : Propriété pour obtenir la taille du tableau.
+fill(value, start, end) : Remplit le tableau avec une valeur.
+copyWithin(target, start, end) : Copie une portion du tableau vers un autre endroit.
+Ces méthodes couvrent les principales manipulations des tableaux en JavaScript.
 
 
 
