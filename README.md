@@ -165,12 +165,27 @@ Il est régit par la norme ECMAScript qui est publiée annuellement.
          
 ## Opérateurs
 
+   - Egalité Faible (==) , Inégalité Faible (!=)
+   - Egalité Stricte (===), Inégalité Stricte (!==)
+   - Attention, préconiser l'utilisation des opérateurs strictes.
    - a++ => post-action
    - ++a => pré-action
+   - le "_ET_" de Windev devient &&
+   - le "_OU_" de Windev devient ||
 
 Les autres opérateurs sont +/- similaires à ceux de Windev et facile à apprendre :
 
 ![image](https://github.com/user-attachments/assets/f31f187f-fb7f-4a90-a0be-99aaa87513d5)
+
+## Opérateur ternaire 
+![image](https://github.com/user-attachments/assets/acaed438-a22a-483d-aef8-784bdbc74e9d)
+
+
+## Opérateur "Nullish coalescing"
+
+![image](https://github.com/user-attachments/assets/5f88f274-2fa9-48dc-9601-7fd02125389d)
+
+![image](https://github.com/user-attachments/assets/1df609f4-390e-41a4-8d88-1e59763c2004)
 
 
 ## Les Objects 
@@ -217,14 +232,30 @@ En JS, une date est stockée sous forme d'un entier qui correspond au nombre de 
 - getDay() : obtenir / modifier la valeur du jour de la semaine d'une date (de 0 à 6)
 - getTime() : obtenir en millisecondes le temps écoulés depuis le 1er janvier 1970
 
-### Fonctions utiles Dates 
+## Fonctions utiles Dates 
 
--toString()
--toISOString()
--toJSON()
--toLocaleString(locale,options)
--toLocaleDateString(locale,options)
--toLocaleTimeString(locale,options)
+- toString()
+- toISOString()
+- toJSON()
+- toLocaleString(locale,options)
+- toLocaleDateString(locale,options)
+- toLocaleTimeString(locale,options)
+
+## Structures if/else et Switch
+
+Exemple if/else : 
+
+![image](https://github.com/user-attachments/assets/41fe44c5-afca-4938-9c21-0433ff80c401)
+
+Exemple Switch : 
+
+![image](https://github.com/user-attachments/assets/347f0c68-798b-4b91-b571-b7504a247522)
+
+
+
+
+
+
 
 
 
