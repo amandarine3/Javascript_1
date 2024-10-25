@@ -266,9 +266,9 @@ On utilise également les instructions CONTINUE et BREAK en JavaScript
 
 - forEach(...)
   
-- for ... of
+- for ... of  => permet de parcourir des objets itérables (Array, Map, String,...) 
   
-- for ... in 
+- for ... in => permet de parcourir les propriétés énumérables d'un objet (Exemple : for (const key in tableauClesValeurs) {} )
 
 ## Collections indexées "ARRAY" 
 
