@@ -346,12 +346,67 @@ __Autres : __
 
  ![image](https://github.com/user-attachments/assets/c73ecf9f-cf5c-434c-98f6-1868f8ceb119)
 
+### Méthodes sur les objets de Type "MAP" 
+
+- set(cle,valeur)
+- get(cle)
+- has(cle)
+- delete(cle)
+- clear()
+- forEach(methode)
+
+- la propriété .size
+  
+### Les objets de Type "SET"
+
+![image](https://github.com/user-attachments/assets/bfcb6b41-f077-4778-a9c4-f685540f695a)
+
+### Méthodes sur les objets de Type "SET"
+
+- add(cle) : permet l'ajout d'une cle dans l'objet Set
+- has(cle) : vérifie si la cle est bien présente dans l'objet Set   
+- delete(cle) : permet de supprimer une cle (renvoie True si suppression Ok) 
+- clear() : permet de supprimer toutes les clés
+- forEach(méthode) : effectuer un traitement itératif sur l'objet Set
+
+- la propriété .size permet d'obtenir le nombre d'éléments de l'objet Set 
+
+### FONCTIONS FLECHEES
+
+- Ecriture : (...) => {...}
+
+Lors de la déclaration d’une fonction fléchée, il est possible ne pas définir de corps à celle-ci.
+Dans ce cas, il ne faut pas mettre les accolades et le « return » est implicite.
 
 
-## TRY / CATCH / FINALLY
+### CALLBACK 
 
+![image](https://github.com/user-attachments/assets/a72c0a5a-c977-4177-9677-aabbb04cf3db)
 
-## 
+![image](https://github.com/user-attachments/assets/112af945-3720-48aa-a4a6-280411ccd107)
+
+## DESTRUCTURING 
+
+Le destructuring est une syntaxe qui permet de réaliser une affectation par décomposition. Celle-ci permet d’extraire des données depuis un objet ou un tableau.
+
+L’objectif du destructuring est donc de pouvoir affecter les valeurs d’une structure de données à des variables en une seule instruction.
+
+La déstructuration (ou destructuring) rend le code plus concis et améliore la lisibilité !
+
+## LES EXCEPTIONS 
+
+### "TRY ... CATCH ... FINALLY" 
+
+La clause « finally » permet de définir du code qui s'exécutera après l'exécution du code du « try » et de la clause « catch ».
+
+### THROW EXCEPTION
+
+![image](https://github.com/user-attachments/assets/b4a8bfc8-6a93-4286-9d3b-93f1d68f160e)
+
+## LES EVENEMENTS (EVENTS)
+
+## LES PROMESSES 
+
 
 
 
