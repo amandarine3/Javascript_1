@@ -274,7 +274,73 @@ On utilise également les instructions CONTINUE et BREAK en JavaScript
 
 Une collection indexée est une structure de données qui permet de stocker un ensemble de valeurs dans une variable et de les rendre accessibles à l’aide d’un index.
 
-** TO BE CONTINUED ** 
+![image](https://github.com/user-attachments/assets/fd950c2d-f849-4c6b-bb6f-2a87efce49b0)
+
+- Littéral : const arr = [1, 2, 3];
+  
+- Constructeur : const arr = new Array(1, 2, 3);
+  
+- Accéder à un élément : arr[index]
+  
+__Ajouter/Supprimer des éléments : __
+
+- push(item) : Ajoute à la fin.
+  
+- pop() : Supprime le dernier élément.
+  
+- unshift(item) : Ajoute au début.
+  
+- shift() : Supprime le premier élément.
+  
+- splice(start, deleteCount, ...items) : Modifie à partir d'un index (ajout/suppression). (la fonction ".toSpliced()" est similaire à "splice()" sauf que celle-ci crée une copie de la collection qui est modifiée et renvoyée) 
+  
+- slice(start, end) : Extrait une portion sans modifier l'original. 
+  
+- join([séparateur]) : Renvoie une chaîne de caractères en concaténant tous les éléments d'u tableau séparés par le séparateur (par défaut: ","). (La fonction "toString()" est similaire à cette fonction join).
+
+  __Itérations : __
+  
+- forEach(callback) : Exécute une fonction pour chaque élément.
+  
+- map(callback) : Crée un nouveau tableau en appliquant une fonction à chaque élément.
+  
+- filter(callback) : Crée un nouveau tableau avec les éléments qui passent un test.
+  
+- reduce(callback, initialValue) : Réduit le tableau à une seule valeur en appliquant une fonction.
+  
+- some(callback) : Retourne true si au moins un élément passe le test.
+  
+- every(callback) : Retourne true si tous les éléments passent le test.
+  
+- find(callback) : Retourne le premier élément qui passe le test.
+
+- findLast(callback) : Retourne le dernier élément qui passe le test. 
+  
+- findIndex(callback) : Retourne l’index du premier élément qui passe le test.
+  
+__Recherches et transformations : __
+
+- indexOf(item) : Retourne l'index d'un élément (ou -1).
+  
+- includes(item) : Vérifie si un élément est présent.
+  
+- join(separator) : Crée une chaîne de caractères à partir des éléments.
+  
+- concat(...arrays) : Combine plusieurs tableaux.
+  
+- flat(depth) : Aplati un tableau imbriqué.
+  
+- reverse() : Inverse l'ordre des éléments. (la fonction ".toReversed() est similaire à "reverse()" sauf que celle-ci crée une copie de la collection qui est modifiée et renvoyée) 
+
+- sort(compareFunction) : Trie le tableau. (la fonction ".toSorted([methodeComparaison])" est identique à "sort()" sauf que celle-ci crée une copie de la collection qui est modifiée et renvoyée)
+  
+__Autres : __
+
+- length : Propriété pour obtenir la taille du tableau.
+  
+- fill(value, start, end) : Remplit le tableau avec une valeur.
+  
+- copyWithin(target, start, end) : Copie une portion du tableau vers un autre endroit.
 
 ## Le Type "MAP"
 
@@ -282,42 +348,10 @@ Une collection indexée est une structure de données qui permet de stocker un e
 
 ## TRY / CATCH / FINALLY
 
+
 ## 
 
-Création d'un Array
-Littéral : const arr = [1, 2, 3];
-Constructeur : const arr = new Array(1, 2, 3);
-Accès et manipulation de données
-Accéder à un élément : arr[index]
-Ajouter/Supprimer des éléments :
-push(item) : Ajoute à la fin.
-pop() : Supprime le dernier élément.
-unshift(item) : Ajoute au début.
-shift() : Supprime le premier élément.
-splice(start, deleteCount, ...items) : Modifie à partir d'un index (ajout/suppression).
-slice(start, end) : Extrait une portion sans modifier l'original.
-Itérations
-forEach(callback) : Exécute une fonction pour chaque élément.
-map(callback) : Crée un nouveau tableau en appliquant une fonction à chaque élément.
-filter(callback) : Crée un nouveau tableau avec les éléments qui passent un test.
-reduce(callback, initialValue) : Réduit le tableau à une seule valeur en appliquant une fonction.
-some(callback) : Retourne true si au moins un élément passe le test.
-every(callback) : Retourne true si tous les éléments passent le test.
-find(callback) : Retourne le premier élément qui passe le test.
-findIndex(callback) : Retourne l’index du premier élément qui passe le test.
-Recherches et transformations
-indexOf(item) : Retourne l'index d'un élément (ou -1).
-includes(item) : Vérifie si un élément est présent.
-join(separator) : Crée une chaîne de caractères à partir des éléments.
-concat(...arrays) : Combine plusieurs tableaux.
-flat(depth) : Aplati un tableau imbriqué.
-reverse() : Inverse l'ordre des éléments.
-sort(compareFunction) : Trie le tableau.
-Autres
-length : Propriété pour obtenir la taille du tableau.
-fill(value, start, end) : Remplit le tableau avec une valeur.
-copyWithin(target, start, end) : Copie une portion du tableau vers un autre endroit.
-Ces méthodes couvrent les principales manipulations des tableaux en JavaScript.
+
 
 
 
