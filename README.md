@@ -407,6 +407,16 @@ La clause « finally » permet de définir du code qui s'exécutera après l'ex�
 
 ## LES PROMESSES 
 
+Les promesses (promises) en JavaScript facilitent la gestion des opérations asynchrones, en particulier celles qui prennent du temps, comme les appels d'API, les requêtes de base de données, ou les temporisations. 
+Avant l’introduction des promesses, les développeurs utilisaient principalement des callbacks pour gérer ces opérations, mais cela entraînait souvent des problèmes de lisibilité et de gestion d'erreurs, connus sous le nom de "callback hell".
+
+Une promesse est un objet représentant un résultat potentiel d'une opération asynchrone, qui peut être :
+
+En attente (pending) : en cours de traitement.
+Résolue (fulfilled) : l'opération a réussi, et la promesse contient le résultat.
+Rejetée (rejected) : l'opération a échoué, et la promesse contient la raison de l'échec.
+
+
 
 
 
