@@ -262,9 +262,9 @@ Exemple Switch :
 - FOR
   ![image](https://github.com/user-attachments/assets/a232d22b-e84e-45e4-9ffa-9f929a6daeb8)
 
-On utilise également les instructions CONTINUE et BREAK en JavaScript
+On utilise également les instructions CONTINUE et BREAK en JavaScript :)
 
-- forEach(...)
+- forEach(...) => parcourt la totalité des éléments d'une collection. Attention : Il est impossible d'arrêter le traitement de cette boucle sauf en déclenchant une exception (Code d'erreur).  
   
 - for ... of  => permet de parcourir des objets itérables (Array, Map, String,...) 
   
