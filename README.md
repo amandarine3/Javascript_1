@@ -342,9 +342,11 @@ __Autres : __
   
 - copyWithin(target, start, end) : Copie une portion du tableau vers un autre endroit.
 
-## Le Type "MAP"
+## Les objets de Type "MAP"
 
-** TO BE CONTINUED ** 
+ ![image](https://github.com/user-attachments/assets/c73ecf9f-cf5c-434c-98f6-1868f8ceb119)
+
+
 
 ## TRY / CATCH / FINALLY
 
